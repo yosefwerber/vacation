@@ -1,0 +1,26 @@
+.Register > form {
+	width: 450px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.Register .TextBox {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.Register .LeftAlign {
+    display: flex;
+}
+
+.registerButton {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+  }

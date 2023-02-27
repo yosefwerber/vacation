@@ -1,0 +1,63 @@
+.VacationList > a{
+	position: absolute;
+    right: 20px;
+    top: 80px;
+    text-decoration: none;
+    transform: scale(2);
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2196F3;
+    transition: background-color 0.3s;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background-color: #0D47A1;
+  }
+  
+  .prev-btn[disabled],
+  .next-btn[disabled] {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .page-select {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .page-select span {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  .vacation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+	
+

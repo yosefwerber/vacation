@@ -1,0 +1,20 @@
+.VacationCard {
+	width: 300px;
+    display: inline-flex;
+    background-image: white;
+    margin: 10px;
+    text-align: left;
+}
+
+.VacationCard img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    vertical-align:super;
+}
+
+
+
+	
+
